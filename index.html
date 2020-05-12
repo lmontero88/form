@@ -1,0 +1,117 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+            <meta name="descripcion" content=" honor al aniveersario  de inauguración de IPVCE Camagüey. ">
+            <title>Formulario medidas corpolares</title>
+            <link rel="stylesheet" type="text/css" href="estilocss.css">
+
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <div  class="encabezado">
+                <h1 id="title"> Gimnasio Grecia</h1>
+            <p id="description">Detalle de evaluación</p>
+            </div>
+            <div class="form">
+                <form id="survey-form">
+                    <div class="datos-generales">
+                        <div class="name">
+                            <label for="name" id="name-label"><h3>Nombre:</h3></label>
+                            <input type="text" placeholder="Escribe tu nombre" id="name" required>
+                        </div>
+                        <div class="email">
+                            <label for="email" id="email-label"><h3>Email:</h3></label>
+                            <input type="email" placeholder="Escribe tu Email" id="email" required>
+                            
+                        </div>
+                        <div class="inputchico">
+                            <div class="edad">
+                                <label for="number" id="number-label"><h3>Edad:</h3></label>
+                                <input type="number" placeholder="Edad" id="number" required  min="18" max="100" >
+    
+                            </div>
+                           
+                            <div class="peso">
+                                <label for="Peso"><h3>Peso/Kg:</h3></label>
+                            <input type="number" id="Peso" placeholder="Peso" required  min="40" max="300">
+    
+                            </div>
+                            <div class="estatura">                            
+                            <label for="Estatura" ><h3>Estatura/m:</h3></label>
+                            <input type="number" placeholder="Estatura" id="Estatura" required>
+                            </div>
+                            
+
+                        </div>
+                        
+                        
+                    </div>              
+                   
+                   <div class="entrenamiento">
+                    <label for="dropdown"><h3>Tipo de Entrenamiento:</h3></label>
+                    <select id="dropdown" name="role" required>
+                        <option disabled selected value> Entrenamiento que desea:</option>
+                        <option value="peso">Bajar de peso</option>
+                        <option value="tonificar">Tonificar</option>
+                        <option value="peso">Aumentar masa muscular</option>
+                    </select>
+                   </Div>
+                    
+                    <div class="sexo">
+                        <h3>Indique su sexo:</h3>
+                        <fieldset>
+                            <label for="masculino">Masculino
+                                <input type="radio" name="hombre-mujer" value="Masculino" id="masculino" checked>                
+                            </label>
+                            <label for="femenino">Femenino
+                                <input type="radio" name="hombre-mujer" value="Femenino" id="femenino" >                
+                            </label>
+                        </fieldset>
+                        
+                    </div>
+                    <div>
+                        <h3>Anamnesis</h3>
+                        <Fieldset>
+                            <label for="embarazo">
+                                <input type="checkbox" value="embarazo" name="prefer"  id="embarazo">Embarazo.
+                            </label>
+                            <label for="intervensiones">
+                                <input type="checkbox" value="intervensiones" name="prefer" id="intervensiones">Intervensiones Quirurgicas.
+                            </label>
+                            <label for="Lesiones">
+                                <input type="checkbox" value="lesiones" name="prefer" id="lesiones">Lesiones.
+                            </label>
+                            <label for="enfermedades">
+                                <input type="checkbox" value="enfermedades" name="prefer" id="enfermedades">Enfermedades Crónicas.
+                            </label>
+                        </Fieldset>
+                        
+                    </div>
+                    <div class="area-texto">
+                      <h3>Observaciones:</h3>
+                      <textarea id="textarea" placeholder="Escribe tus comentarios de rutina diaria de ejercicios" name="comment" maxlength="300"></textarea>
+    
+                    </div>
+                    <div class="boton">
+                        <button type="submit" id="submit"><b>ENVIAR</b></button>
+                    </div>
+                   
+                    
+    
+                </form>
+
+            </div>
+            
+           
+            
+
+        </main>
+        <footer>
+            
+
+        </footer>
+    </body>
+</html>
