@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main, footer{
+    margin: 20px auto;
+    width: 90%;
+    max-height: 1000px;
+
+   
+}
+main{
+    background-image: url(fondobody.jpg);
+    background-size: cover;
+    
+}
+.encabezado{
+   text-align: center;
+   background: rgb(28, 20, 97);
+   margin-top: 10px;
+   margin-bottom: 30px;
+   padding: 20px 0px 20px 0px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+   font-size: 20px;   
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    color: rgb(170, 160, 160);
+    padding-top: 40px;
+}
+
+h3{
+    color: rgb(250, 233, 233);
+}
+
+#survey-form{
+    width: 50%;
+    background: rgba(7, 49, 59, 0.931);
+    border-radius: 10px;
+    padding: 20px; 
+    
+
+}
+
+
+    
+}
+label {
+    width: 100%;
+    display: block;
+  
+}
+
+#name, #email {
+   width: 100%;
+   padding: 10px;
+
+}
+.name, .email {
+    margin-top: 20px;
+}
+
+#number, #Peso, #Estatura {
+    padding: 10px;
+    width: 100%;
+       
+}
+
+.edad, .peso, .estatura {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.inputchico{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dropdown {
+    padding:10px;
+    width: 100%;
+}
+.sexo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Masculino, #Femenino {
+   margin: 0px 10px 0px 10px;
+}
+fieldset{
+    padding: 15px 0px 15px 10px;
+}
+
+#embarazo, #intervensiones, #lesiones, #enfermedades{
+    margin: 0px 10px 0px 5px;
+}
+
+.area-texto {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#textarea {
+    width: 100%;
+    padding: 5px 0px 60px 5px;  
+    resize: both; 
+    max-height: 300px;
+    min-height: 100px;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(98, 100, 110);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{   
+    background-color: rgb(255, 51, 0);
+    
+}
+   
+
+
+footer{
+    text-align: center;
+    background:  rgb(28, 20, 97);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 50px 0px 50px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;   
+}
