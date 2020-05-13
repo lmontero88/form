@@ -30,7 +30,7 @@ main{
     justify-content: center;
     padding-bottom: 40px;
     color: rgb(170, 160, 160);
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 h3{
@@ -48,7 +48,7 @@ h3{
 
 
     
-}
+
 label {
     width: 100%;
     display: block;
@@ -73,6 +73,7 @@ label {
 .edad, .peso, .estatura {
    margin-top: 20px;
    margin-bottom: 20px;
+   width: 30%;
 }
 
 .inputchico{
